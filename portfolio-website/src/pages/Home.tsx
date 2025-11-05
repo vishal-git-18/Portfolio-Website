@@ -6,7 +6,7 @@ export default function Home() {
       {/* Profile Image */}
       <div className="w-32 h-32 rounded-full overflow-hidden mt-14">
         <img
-          src="/images/profile.jpg"
+          src="/images/home/profile.jpg"
           alt="Profile"
           className="w-full h-full object-cover"
           style={{ objectPosition: "center 15%" }}
@@ -43,7 +43,7 @@ export default function Home() {
 
       {/* Description */}
       <p className="mt-8 text-base md:text-lg text-gray-400 text-center max-w-md md:max-w-xl leading-relaxed">
-        A Software Developer and Data Engineer based in Bangalore. <br />
+        A Software Developer and Data Enthusiast based in Bangalore. <br />
         I specialize in creating responsive designs, architecting systems, and making data work seamlessly.
       </p>
 
