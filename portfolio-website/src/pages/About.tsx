@@ -3,7 +3,7 @@ export default function AboutMe() {
     <div className="flex flex-col md:flex-row w-full min-h-screen px-6 md:px-16 bg-background gap-8">
 
       {/* Left Column */}
-      <div className="flex-1 flex flex-col justify-start pt-36 md:pt-43 text-center md:text-left space-y-6 md:space-y-8">
+      <div className="flex-1 flex flex-col justify-start pt-20 md:pt-20 text-center md:text-left space-y-6 md:space-y-8">
         {/* Greeting */}
         <h2 className="text-2xl md:text-3xl font-sans font-medium text-gray-300">
           Hey, I'm Vishal
@@ -33,7 +33,7 @@ export default function AboutMe() {
 
       {/* Center Column: Image */}
       <div className="flex-[0.8] flex justify-center md:self-end">
-        <div className="w-[400px] md:w-[480px] lg:w-[580px] h-auto overflow-hidden">
+        <div className="w-[440px] md:w-[520px] lg:w-[620px] h-auto overflow-hidden">
           <img
             src="/images/about/profile.jpg"
             alt="About Me"
@@ -48,7 +48,7 @@ export default function AboutMe() {
 
 
       {/* Right Column */}
-      <div className="flex-1 flex flex-col justify-start pt-36 md:pt-48 max-w-md md:max-w-lg text-gray-300 leading-relaxed mx-auto md:mx-0 text-sm md:text-base space-y-6 md:space-y-8 text-justify">
+      <div className="flex-1 flex flex-col justify-start pt-32 md:pt-32 max-w-md md:max-w-lg text-gray-300 leading-relaxed mx-auto md:mx-0 text-sm md:text-base space-y-6 md:space-y-8 text-justify">
 
         <p>
           🎓 I'm a recent graduate from <span className="font-semibold text-[#ff4d6d]">PES University</span> with a strong tech background. I enjoy putting those skills to use by building <span className="font-semibold text-[#ff4d6d]">products and applications</span> that solve problems I can relate to.

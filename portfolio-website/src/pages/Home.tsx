@@ -2,7 +2,7 @@ import { Button } from "../../src/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-[85vh] px-4 py-10 relative">
+    <div className="flex flex-col items-center justify-center min-h-[85vh] px-4 relative">
       {/* Profile Image */}
       <div className="w-32 h-32 rounded-full overflow-hidden mt-14">
         <img

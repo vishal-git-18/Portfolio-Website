@@ -1,9 +1,9 @@
 export default function Experience() {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center min-h-screen px-8 md:px-20 bg-background text-left pt-0 md:pt-8">
+    <div className="flex flex-col md:flex-row justify-start min-h-screen px-8 md:px-20 bg-background text-left">
       
       {/* LEFT SIDE — Heading */}
-      <div className="flex-1 flex flex-col justify-center">
+      <div className="flex-1 flex flex-col justify-start pt-40 md:pt-40">
         <h1
           className="text-[7rem] md:text-[9rem] font-extrabold leading-none tracking-tight"
           style={{ color: "#FFFFFF" }}
@@ -26,7 +26,7 @@ export default function Experience() {
       </div>
 
       {/* RIGHT SIDE — Experience Cards */}
-      <div className="flex-1 flex flex-col justify-center gap-8 mt-16 md:mt-0 pt-8 md:pt-8">
+      <div className="flex-1 flex flex-col justify-start gap-8 pt-14 md:pt-14">
         
         {/* Card 1: Inube */}
         <div className="p-6 rounded-2xl border border-gray-700 bg-[#111111] hover:scale-[1.02] transition-transform duration-300 shadow-lg">
